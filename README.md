@@ -35,6 +35,13 @@ The design uses a clock-driven counter to generate a slower LED-toggle signal fr
 
 This repository documents the project and the concepts learned. The original HAL project files are not included because I did not retain them.
 
+## Simulation Waveform
+
+The waveform shows the clock, reset, and LED output
+for the educational Verilog LED-blinker testbench.
+
+![LED Blinking Simulation](images/led_blink_waveform.png)
+
 ## Future Improvements
 
 - Recreate the RTL implementation independently
